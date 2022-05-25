@@ -13,14 +13,15 @@ const Box = (props) =>{
         case 3:
         color = "yellow"    
         break;
+        case 4:
+        color = "purple"    
+        break;
         default:
         color = "gray"
     }
 
     return(
-      <div id="box" style={{backgroundColor: color }}>
-        {props.value}
-      </div>  
+      <div id="box" style={{backgroundColor: color }}></div>  
     )
 } 
 export default Box
